@@ -1,0 +1,504 @@
+/*
+
+    /* Overall CSS Styling */
+
+    h1, h2, h3, h4, h5, 
+    h6 {
+        color: whitesmoke;
+        font-family: Arial;
+        font-size:large;
+    }
+
+    p, 
+    li {
+        color: whitesmoke;
+        font-family: Arial;
+        font-size: medium;
+        letter-spacing: normal;
+        line-height: 0.75cm;
+    }
+
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: gold;
+    }
+
+    tr {
+        border-color: white;
+    }
+
+    header {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .break {
+        background-color: gold;
+        opacity: 90%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* Background Image */
+
+    .bg {
+            background: url(../Images/background-img.jpeg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+    /* IMAGE SOURCE: https://unsplash.com/photos/Wft1QrsY-8g */
+
+    /* Footer */
+
+    footer {
+        color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    /* Navigation Bar - Header */
+
+    .navbar-header {	
+        overflow: auto;
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    .navbar-header a {
+        font-style: italic;
+        text-decoration: none;
+        float: center;
+        padding: 10px;
+    }
+
+    .navbar-header a:active {
+        background-color: antiquewhite;
+    }
+
+    /* Navigation Bar - Footer */
+
+    .buttonnavbar-footer {
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 5px;    
+        width: 100%;
+    }
+
+    .buttonnavbar-footer a {
+        float: center;
+        padding: 10px;
+    }
+
+    .buttonnavbar-footer a:active {
+        background-color: antiquewhite;
+    }
+
+    /* Home */
+
+    .home-content {
+        padding: 175px;
+        padding-bottom: 75px;
+        text-align: center;
+
+    }
+
+    #discoball-home {
+        position: inherit;
+        top: 0px;
+    }
+
+    .home-image {
+        padding-top: 20px;
+        position: relative;
+    }
+
+    .homenavbar-footer a {
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        text-decoration: none;
+        float: center;
+        padding: 10px;
+    }
+
+    .homenavbar-footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #home-title-1 {
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    #home-title-2 {
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    #home-title-3 {
+        font-family: Arial;
+        font-weight: normal;
+    }
+
+    #home-title-4 {
+        font-family: Arial;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    /* Personal Info */
+
+    .personalinfo-header {
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 755px;
+    }
+
+    .personalinfo-header h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .personalinfo-information table td {
+        display: table-cell;
+        width: auto;
+        align-content: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .personalinfo-bio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .personalinfo-interest {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    @media all and (max-width: 800px) {
+        .personalinfo-information,
+        .personalinfo-information 
+        
+        {
+            justify-content: space-evenly;
+        }
+    }
+
+    @media all and (max-width: 500px) {
+        .personalinfo-information,
+        .personalinfo-information 
+        
+        {
+            flex-direction: column;
+        }
+    }
+
+    /* Ideal Job */
+
+    .idealjob-header {
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 755px;
+    }
+
+    .idealjob-header h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .idealjob-brief {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        font-style: italic;
+        font-weight:lighter;
+
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+
+    .idealjob-img-link {
+        object-position: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .idealjob-img-link p {
+        font-size: large;
+        font-weight: normal;
+    }
+
+    #idealjob-img {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #idealjob-link {
+        padding-top: 25px;
+    }
+
+    .idealjob-information {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* Personality Profile */
+
+    .personalityprofile-header {
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 755px;
+    }
+
+    .personalityprofile-header h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    #personality-links {
+        text-align: center;
+        font-style: italic;
+        padding-top: 50px;
+    }
+
+    #infp-1 {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    #infp-2 {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .infp-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    #vark-1 {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .vark-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #deductive-1 {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #inductive-2 {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .iNdreasoning-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    @media all and (max-width: 800px) {
+        .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2 
+        .iNdreasoning-info {
+            justify-content: space-evenly;
+        }
+    }
+
+    @media all and (max-width: 500px) {
+        .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2, 
+        .iNdreasoning-info {
+            flex-direction: column;
+        }
+    }
+
+    /* Project Idea */
+
+    .projectidea-header {
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 755px;
+    }
+
+    .projectidea-header h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .projectidea-overview, .projectidea-motivation, .projectidea-description, .projectidea-toolsNtech, .projectidea-skills,
+    .projectidea-outcome {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #pi-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* References */
+
+    .references-header {
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 755px;
+    }
+
+    .references-header h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .references-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #referencesinfo-header {
+        font-size: 25px;
+    }
+
+    #references-id {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: left;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
