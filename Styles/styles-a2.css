@@ -1,5 +1,3 @@
-/*
-
     /* Overall CSS Styling */
 
     h1, h2, h3, h4, h5, 
@@ -24,11 +22,7 @@
     }
 
     a:hover {
-        color: gold;
-    }
-
-    tr {
-        border-color: white;
+        color: dodgerblue;
     }
 
     header {
@@ -53,7 +47,7 @@
             background-size: cover;
         }
 
-    /* IMAGE SOURCE: https://unsplash.com/photos/Wft1QrsY-8g */
+    /* IMAGE SOURCE: Richard Horvath - https://unsplash.com/photos/_nWaeTF6qo0 */
 
     /* Footer */
 
@@ -164,6 +158,7 @@
     .teamprofile-header {
         text-align: left;
         text-transform: uppercase;
+
         padding-top: 20px;
         padding-left: 50px;
         padding-right: 755px;
@@ -174,331 +169,34 @@
         color: white;
     }
 
-    .personalinfo-information table td {
-        display: table-cell;
-        width: auto;
-        align-content: left;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 200px;
-        padding-right: 200px;
+    .teamprofile-titles {
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
-    .personalinfo-bio {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
+    .teamprofile-titles h1 {
         text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        font-size: 35px;
     }
 
-    .personalinfo-interest {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    @media all and (max-width: 800px) {
-        .personalinfo-information,
-        .personalinfo-information 
-        
-        {
-            justify-content: space-evenly;
-        }
-    }
-
-    @media all and (max-width: 500px) {
-        .personalinfo-information,
-        .personalinfo-information 
-        
-        {
-            flex-direction: column;
-        }
-    }
-
-    /* Ideal Job */
-
-    .idealjob-header {
-        text-align: left;
-        text-transform: uppercase;
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 755px;
-    }
-
-    .idealjob-header h1 {
-        font-size: 50px;
-        color: white;
-    }
-
-    .idealjob-brief {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        font-style: italic;
-        font-weight:lighter;
-
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 5px;
-    }
-
-    .idealjob-img-link {
-        object-position: center;
-        text-align: center;
-        padding-bottom: 50px;
-    }
-
-    .idealjob-img-link p {
-        font-size: large;
-        font-weight: normal;
-    }
-
-    #idealjob-img {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-
-    #idealjob-link {
-        padding-top: 25px;
-    }
-
-    .idealjob-information {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    /* Personality Profile */
-
-    .personalityprofile-header {
-        text-align: left;
-        text-transform: uppercase;
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 755px;
-    }
-
-    .personalityprofile-header h1 {
-        font-size: 50px;
-        color: white;
-    }
-
-    #personality-links {
-        text-align: center;
-        font-style: italic;
-        padding-top: 50px;
-    }
-
-    #infp-1 {
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
-        padding-bottom: 10px;
-    }
-
-    #infp-2 {
-        height: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 10px;
-        padding-bottom: 25px;
-    }
-
-    .infp-info {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 25px;
-        padding-bottom: 50px;
-    }
-
-    #vark-1 {
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-
-    .vark-info {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    #deductive-1 {
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    #inductive-2 {
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    .iNdreasoning-info {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 0px;
-        padding-bottom: 50px;
-    }
-
-    @media all and (max-width: 800px) {
-        .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2 
-        .iNdreasoning-info {
-            justify-content: space-evenly;
-        }
-    }
-
-    @media all and (max-width: 500px) {
-        .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2, 
-        .iNdreasoning-info {
-            flex-direction: column;
-        }
-    }
-
-    /* Project Idea */
-
-    .projectidea-header {
-        text-align: left;
-        text-transform: uppercase;
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 755px;
-    }
-
-    .projectidea-header h1 {
-        font-size: 50px;
-        color: white;
-    }
-
-    .projectidea-overview, .projectidea-motivation, .projectidea-description, .projectidea-toolsNtech, .projectidea-skills,
-    .projectidea-outcome {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    #pi-list {
+    .teamprofile-content {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
 
         text-align: left;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    /* References */
-
-    .references-header {
-        text-align: left;
-        text-transform: uppercase;
-        padding-top: 20px;
-        padding-left: 50px;
-        padding-right: 755px;
-    }
-
-    .references-header h1 {
-        font-size: 50px;
-        color: white;
-    }
-
-    .references-info {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: center;
         margin-left: 200px;
         margin-right: 200px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
 
-    #referencesinfo-header {
-        font-size: 25px;
+    .teamprofile-content h1 {
+        font-size: 20px;
     }
 
-    #references-id {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        text-align: left;
-        margin-left: 150px;
-        margin-right: 150px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    #teamprofile-spacing p {
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
