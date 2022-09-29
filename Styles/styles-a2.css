@@ -5,6 +5,7 @@
         color: whitesmoke;
         font-family: Arial;
         font-size:large;
+        letter-spacing: 1.5px;
     }
 
     p, 
@@ -12,7 +13,7 @@
         color: whitesmoke;
         font-family: Arial;
         font-size: medium;
-        letter-spacing: normal;
+        letter-spacing: 0.5px;
         line-height: 0.75cm;
     }
 
@@ -32,7 +33,7 @@
 
     .break {
         background-color: midnightblue;
-        opacity: 90%;
+        opacity: 80%;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -64,6 +65,7 @@
         padding-top: 0px;
         padding-left: 50px;
         padding-bottom: 30px;
+        letter-spacing: 5px;
     }
 
     .navbar-header a {
@@ -74,7 +76,7 @@
     }
 
     .navbar-header a:active {
-        background-color: antiquewhite;
+        background-color: steelblue;
     }
 
     /* Navigation Bar - Footer */
@@ -86,15 +88,15 @@
         text-align: center;
         padding-top: 5px;    
         width: 100%;
+        letter-spacing: 0.5px;
+        line-height: 0.75cm;
     }
 
     .buttonnavbar-footer a {
+        font-style: italic;
+        text-decoration: none;
         float: center;
         padding: 10px;
-    }
-
-    .buttonnavbar-footer a:active {
-        background-color: antiquewhite;
     }
 
     /* Home */
@@ -103,17 +105,11 @@
         padding: 175px;
         padding-bottom: 75px;
         text-align: center;
-
     }
 
-    #discoball-home {
-        position: inherit;
-        top: 0px;
-    }
-
-    .home-image {
-        padding-top: 20px;
-        position: relative;
+    .homenavbar-footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .homenavbar-footer a {
@@ -127,30 +123,26 @@
         padding: 10px;
     }
 
-    .homenavbar-footer {
-        padding-top: 50px;
+    .home-content {
+        letter-spacing: 3.5px;
+        line-height: 1cm;
+        padding-top: 200px;
         padding-bottom: 50px;
     }
 
-    #home-title-1 {
-        font-family: Arial;
-        font-weight: bold;
+    .home-content h1 {
+        margin-bottom: 5px;
+        font-size: 30px;
     }
 
-    #home-title-2 {
-        font-family: Arial;
-        font-weight: bold;
+    .home-content h2 {
+        margin-top: 0px;
+        font-weight: lighter;
+        font-size: 25px;
     }
 
-    #home-title-3 {
-        font-family: Arial;
-        font-weight: normal;
-    }
+    .home-content h3 {
 
-    #home-title-4 {
-        font-family: Arial;
-        font-weight: normal;
-        font-style: italic;
     }
 
     /* Team Profile */
