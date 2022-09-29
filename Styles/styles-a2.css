@@ -37,7 +37,7 @@
     }
 
     .break {
-        background-color: gold;
+        background-color: midnightblue;
         opacity: 90%;
         margin-left: 50px;
         margin-right: 50px;
@@ -46,7 +46,7 @@
     /* Background Image */
 
     .bg {
-            background: url(../Images/background-img.jpeg) no-repeat center center fixed; 
+            background: url(../Images/holdingbg-temp.jpg) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -159,9 +159,9 @@
         font-style: italic;
     }
 
-    /* Personal Info */
+    /* Team Profile */
 
-    .personalinfo-header {
+    .teamprofile-header {
         text-align: left;
         text-transform: uppercase;
         padding-top: 20px;
@@ -169,7 +169,7 @@
         padding-right: 755px;
     }
 
-    .personalinfo-header h1 {
+    .teamprofile-header h1 {
         font-size: 50px;
         color: white;
     }
