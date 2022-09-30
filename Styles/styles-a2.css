@@ -8,8 +8,8 @@
         letter-spacing: 1.5px;
     }
 
-    p, 
-    li {
+    p, li, 
+    td {
         color: whitesmoke;
         font-family: Arial;
         font-size: medium;
@@ -17,7 +17,8 @@
         line-height: 0.75cm;
     }
 
-    a:link, a:visited {
+    a:link, 
+    a:visited {
         color: white;
         text-decoration: none;
     }
@@ -174,7 +175,8 @@
         font-size: 35px;
     }
 
-    .teamprofile-table td, th {
+    .teamprofile-table td, 
+    th {
         padding: 45px;
         font-size: 26px;
         font-weight: 200;
@@ -218,7 +220,6 @@
         border-radius: 50%;
     }
 
-    /*
     @media all and (max-width: 800px) {
         .teamprofile-table
         {
@@ -232,17 +233,81 @@
             flex-direction: column;
         }
     }
-    */
 
-    /* Team Profile - Sub Pages */
+    .teamprofile-ijtitles {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
 
-    .teamprofile-content {
+    .teamprofile-ijtitles h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .teamprofile-ijcontent {
+        text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
 
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .teamprofile-ijcontent h1 {
+        font-size: 20px;
+    }
+
+    #teamprofile-ijtable1 {
         text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        border-spacing: 1px 1px;
+        border-collapse: collapse;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-bottom: 25px;
+    }
+
+    #teamprofile-ijtable2 {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        border-spacing: 1px 1px;
+        border-collapse: collapse;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    #teamprofile-ijtable2 li {
+        padding-right: 20px;
+    }
+    .teamprofile-ijtable td {
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+    }
+
+    /* Team Profile - Sub Pages */
+
+    .teamprofile-content {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
         margin-left: 200px;
         margin-right: 200px;
         padding-top: 50px;
