@@ -99,7 +99,7 @@
     .buttonnavbar-footer {
         font-family: Arial;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
         padding-top: 5px;    
         width: 100%;
@@ -117,7 +117,7 @@
     /* Home */
 
     .home-content {
-        padding: 175px;
+        padding-top: 175px;
         padding-bottom: 75px;
         text-align: center;
     }
@@ -130,7 +130,7 @@
     .homenavbar-footer a {
         font-family: Arial;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 17px;
         font-style: italic;
         text-align: center;
         text-decoration: none;
@@ -176,7 +176,9 @@
 
     .teamprofile-table td, th {
         padding: 45px;
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: 200;
+        font-style: italic;
     }
 
     .teamprofile-table {
