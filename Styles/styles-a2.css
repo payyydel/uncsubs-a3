@@ -1,30 +1,41 @@
     /* Overall CSS Styling */
 
-    h1, h2, h3, h4, h5, h6,
+    @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+    /*
+    font-family: 'Silkscreen', cursive;
+    */
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
     th {
         color: whitesmoke;
-        font-family: Arial;
-        font-size:large;
+        font-family: 'Silkscreen', cursive;
+        font-size: large;
         letter-spacing: 1.5px;
     }
 
-    p, li, 
+    p,
+    li,
     td {
         color: whitesmoke;
-        font-family: Arial;
+        font-family: 'Silkscreen', cursive;
         font-size: medium;
         letter-spacing: 0.5px;
         line-height: 0.75cm;
     }
 
-    a:link, 
+    a:link,
     a:visited {
-        color: white;
+        color: whitesmoke;
         text-decoration: none;
     }
 
     a:hover {
-        color: dodgerblue;
+        color: coral;
     }
 
     header {
@@ -33,8 +44,8 @@
     }
 
     .break {
-        background-color: midnightblue;
-        opacity: 80%;
+        background-color:aquamarine;
+        opacity: 70%;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -42,14 +53,15 @@
     /* Background Image */
 
     .bg {
-            background: url(../Images/holdingbg-temp.jpg) no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
+        background: url(../Images/altbg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: local;
+    }
 
-    /* IMAGE SOURCE: Richard Horvath - https://unsplash.com/photos/_nWaeTF6qo0 */
+    /* IMAGE SOURCE: Gradienta - https://unsplash.com/photos/pHh_qLDusw4 */
 
     /* Header */
     .page-header {
@@ -68,7 +80,7 @@
 
     /* Navigation Bar - Header */
 
-    .navbar-header {	
+    .navbar-header {
         overflow: auto;
         padding-top: 0px;
         padding-left: 50px;
@@ -77,7 +89,7 @@
     }
 
     .navbar-header a {
-        font-style: italic;
+        font-style: normal;
         text-decoration: none;
         float: center;
         padding: 10px;
@@ -98,18 +110,18 @@
     /* Navigation Bar - Footer */
 
     .buttonnavbar-footer {
-        font-family: Arial;
+        font-family: 'Silkscreen', cursive;
         font-weight: normal;
         font-size: 25px;
         text-align: center;
-        padding-top: 5px;    
+        padding-top: 5px;
         width: 100%;
         letter-spacing: 0.5px;
         line-height: 0.75cm;
     }
 
     .buttonnavbar-footer a {
-        font-style: italic;
+        font-style: normal;
         text-decoration: none;
         float: center;
         padding: 10px;
@@ -129,10 +141,10 @@
     }
 
     .homenavbar-footer a {
-        font-family: Arial;
+        font-family: 'Silkscreen', cursive;
         font-weight: normal;
         font-size: 17px;
-        font-style: italic;
+        font-style: normal;
         text-align: center;
         text-decoration: none;
         float: center;
@@ -175,7 +187,7 @@
         font-size: 35px;
     }
 
-    .teamprofile-table td, 
+    .teamprofile-table td,
     th {
         padding: 45px;
         font-size: 26px;
@@ -196,40 +208,38 @@
         padding-bottom: 50px;
     }
 
-    .teamprofile-table img { 
+    .teamprofile-table img {
         width: 100px;
         object-fit: cover;
     }
 
-    #hs-rec { 
-        width: 275px; 
-        height: 275px; 
-        overflow: hidden; 
-        border-radius: 50%; 
-    } 
+    #hs-rec {
+        width: 275px;
+        height: 275px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 
-    #hs-port { 
-        width: 275px; 
-        height: 275px; 
-        border-radius: 50%; 
-    } 
+    #hs-port {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+    }
 
     #hs-squ {
-        width: 275px; 
-        height: 275px; 
+        width: 275px;
+        height: 275px;
         border-radius: 50%;
     }
 
     @media all and (max-width: 800px) {
-        .teamprofile-table
-        {
+        .teamprofile-table {
             justify-content: space-evenly;
         }
     }
-    
+
     @media all and (max-width: 500px) {
-        .teamprofile-table 
-        {
+        .teamprofile-table {
             flex-direction: column;
         }
     }
@@ -293,6 +303,7 @@
     #teamprofile-ijtable2 li {
         padding-right: 20px;
     }
+
     .teamprofile-ijtable td {
         text-align: center;
         border-style: solid;
@@ -341,9 +352,9 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        
+
         margin-left: 300px;
         margin-right: 300px;
         padding-top: 50px;
         padding-bottom: 50px;
-        }
+    }
