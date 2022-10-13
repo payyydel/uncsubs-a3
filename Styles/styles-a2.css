@@ -58,7 +58,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-attachment: local;
+        background-attachment: fixed;
     }
 
     /* IMAGE SOURCE: Gradienta - https://unsplash.com/photos/pHh_qLDusw4 */
