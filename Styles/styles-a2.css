@@ -38,13 +38,17 @@
         color: coral;
     }
 
+    a:active {
+        background-color: steelblue;
+    }
+
     header {
         padding-top: 20px;
         padding-left: 50px;
     }
 
     .break {
-        background-color:aquamarine;
+        background-color: aquamarine;
         opacity: 70%;
         margin-left: 50px;
         margin-right: 50px;
@@ -93,10 +97,6 @@
         text-decoration: none;
         float: center;
         padding: 10px;
-    }
-
-    .navbar-header a:active {
-        background-color: steelblue;
     }
 
     /* Footer */
