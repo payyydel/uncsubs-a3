@@ -358,3 +358,17 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    
+    .tools-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
