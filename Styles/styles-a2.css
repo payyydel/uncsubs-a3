@@ -169,12 +169,6 @@
         font-size: 25px;
     }
 
-    /*
-    .home-content h3 {
-
-    }
-    */
-
     /* Team Profile */
 
     .teamprofile-titles {
@@ -184,7 +178,14 @@
 
     .teamprofile-titles h1 {
         text-align: center;
+        font-size: 50px;
+    }
+
+    .teamprofile-titles h2 {
+        text-align: center;
         font-size: 35px;
+        font-weight: lighter;
+        font-style: italic;
     }
 
     .teamprofile-table td,
@@ -192,7 +193,7 @@
         padding: 45px;
         font-size: 26px;
         font-weight: 200;
-        font-style: italic;
+        font-style: normal;
     }
 
     .teamprofile-table {
@@ -230,18 +231,6 @@
         width: 275px;
         height: 275px;
         border-radius: 50%;
-    }
-
-    @media all and (max-width: 800px) {
-        .teamprofile-table {
-            justify-content: space-evenly;
-        }
-    }
-
-    @media all and (max-width: 500px) {
-        .teamprofile-table {
-            flex-direction: column;
-        }
     }
 
     .teamprofile-ijtitles {
@@ -359,6 +348,128 @@
         padding-bottom: 50px;
     }
 
+    /* IT Tech */
+
+    .ittech-table th {
+        padding: 45px;
+        font-size: 26px;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .ittech-table td {
+        padding: 45px;
+        font-size: 15px;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .ittech-rowmain th {
+        padding-bottom: 0px;
+    }
+
+    .ittech-rowname td {
+        padding-top: 0px;
+    }
+
+    .ittech-table {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .teamprofile-ijtitles {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .teamprofile-ijtitles h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    /* IT Tech - Sub Pages */
+
+    .ittech-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ittech-content h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .ittech-content h2 {
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 0px;
+    }
+
+    .ittech-content h3 {
+        font-size: 17px;
+    }
+
+    .ittech-content h4 {
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    /* IT Work */
+
+    .itwork-content {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .itwork-content h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .itwork-content h2 {
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 30px;
+    }
+
+    .itwork-content h3 {
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    #itwork-audio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Tools */
     
     .tools-content {
         text-align: center;
