@@ -31,6 +31,7 @@
 
     p,
     li,
+    tr,
     td {
         color: whitesmoke;
         font-family: 'Silkscreen', cursive;
@@ -72,7 +73,7 @@
     /* Background Image */
 
     .bg {
-        background: url(../Images/altbg.jpg) no-repeat center center fixed;
+        background: url(../Images/Backgrounds/altbg.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -497,4 +498,76 @@
         margin-right: 300px;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    /* Industry Data */
+
+    .idata-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .idata-content li {
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .idata-content img {
+        margin-left: 125px;
+    }
+
+    .idata-table1 {
+        border-collapse: collapse;
+        object-position: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .idata-table2 {
+        border-collapse: collapse;
+        object-position: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .idata-table1 th {
+        font-size:medium;
+        font-weight: bold;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+    }
+
+    .idata-table1 td {
+        font-size: medium;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+    }
+
+    .idata-table2 th {
+        font-size:medium;
+        font-weight: bold;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+    }
+
+    .idata-table2 td {
+        font-size: small;
+        text-align: left;
+        border-style: solid;
+        border-color: white;
     }
