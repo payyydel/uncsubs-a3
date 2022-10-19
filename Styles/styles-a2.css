@@ -2,20 +2,6 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
-    /*
-    
-    @media only screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
-        body {
-            width: 100%;
-        }
-        .navbar-header {
-            float: none;
-            width: 100%;
-        }
-      }
-      
-    */
-
     h1,
     h2,
     h3,
@@ -90,7 +76,7 @@
 
         padding-top: 20px;
         padding-left: 50px;
-        padding-right: 755px;
+        padding-right: 500px;
     }
 
     .page-header h1 {
@@ -571,3 +557,107 @@
         border-style: solid;
         border-color: white;
     }
+
+    /* Group Reflection */
+
+    .reflect-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .reflect-content h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .reflect-content h2 {
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 30px;
+    }
+
+    .reflect-table th {
+        padding: 45px;
+        font-size: 26px;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .reflect-table td {
+        padding: 45px;
+        font-size: 15px;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .reflect-rowmain th {
+        padding-bottom: 0px;
+    }
+
+    .reflect-rowname td {
+        padding-top: 0px;
+    }
+
+    .reflect-table {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .reflect-ijtitles {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .reflect-ijtitles h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+
+    /* Individual Reflections Sub Pages (Group Reflections) */
+
+    .irreflect-content {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .irreflect-content h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Responsive Media Queries */
+
+    @media only screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+        body {
+            width: 100%;
+        }
+        .navbar-header {
+            float: none;
+            width: 100%;
+        }
+        }
