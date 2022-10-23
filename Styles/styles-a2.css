@@ -2,122 +2,108 @@
 
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
 
-h1,
+.wrapper h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-th {
-    color: whitesmoke;
-    font-family: 'Silkscreen', cursive;
-    font-size: large;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
-
-tr,
-td {
-    color: whitesmoke;
-    font-family: 'Silkscreen', cursive;
-    font-size: medium;
-    letter-spacing: 0.5px;
-    line-height: 0.75cm;
-}
-
-li,
-p {
-    color: whitesmoke;
-    font-family: 'M PLUS 1 Code', sans-serif;
-    font-size: larger;
-    font-weight: 500;
+h6 {
+    color: floralwhite;
+    font: 25px 'silkscreen', cursive;
     letter-spacing: 1px;
-    line-height: 0.75cm;
 }
 
-a:link,
-a:visited {
+.wrapper li,
+p {
+    color: white;
+    font: 500 18px/0.75cm 'M PLUS 1 Code', sans-serif;
+    letter-spacing: 1px;
+}
+
+.wrapper th {
     color: whitesmoke;
+    font: bold 20px 'silkscreen', cursive;
+}
+
+.wrapper tr,
+td {
+    color: white;
+    font: medium/0.75cm 'silkscreen', cursive;
+    letter-spacing: 0.5px;
+}
+
+.wrapper a:link,
+a:visited {
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
+.wrapper a:hover {
     color: coral;
 }
 
-a:active {
+.wrapper a:active {
     background-color: steelblue;
-}
-
-header {
-    padding-top: 20px;
-    padding-left: 50px;
 }
 
 .break {
     background-color: aquamarine;
     opacity: 70%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 50px 0px 50px;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+header {
+    padding: 20px 50px 0px 0px;
+}
+
 /* Background Image */
 
 .bg {
-    background: url(../Images/Backgrounds/altbg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background: url(../Images/Backgrounds/altbg.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 /* IMAGE SOURCE: Gradienta - https://unsplash.com/photos/pHh_qLDusw4 */
 
 /* Header */
+
 .page-header {
     text-align: left;
     text-transform: uppercase;
-
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 500px;
+    padding: 20px 500px 0px 50px;
 }
 
 .page-header h1 {
     font-size: 50px;
-    color: white;
 }
 
 /* Navigation Bar - Header */
 
 .navbar-header {
     overflow: auto;
-    padding-top: 0px;
-    padding-left: 50px;
-    padding-bottom: 30px;
+    padding: 0px 0px 30px 50px;
     letter-spacing: 5px;
 }
 
+.navbar-header p {
+    font: 17px 'silkscreen', cursive;
+}
+
 .navbar-header a {
-    font-style: normal;
-    text-decoration: none;
+    line-height: 0.75cm;
+    letter-spacing: 0.5px;
+    color: whitesmoke;
     float: center;
     padding: 10px;
 }
 
-.navbar-header p {
-    color: whitesmoke;
-    font-family: 'Silkscreen', cursive;
-    font-size: large;
-    font-weight: normal;
-    letter-spacing: 0.5px;
-    line-height: 0.75cm;
-}
 
 /* Footer */
 
@@ -129,11 +115,8 @@ footer {
 
 footer p {
     color: whitesmoke;
-    font-family: 'Silkscreen', cursive;
-    font-size: medium;
-    font-weight: normal;
+    font: 17px/0.75cm 'silkscreen', cursive;
     letter-spacing: 0.5px;
-    line-height: 0.75cm;
 }
 
 #footer-info {
@@ -143,7 +126,6 @@ footer p {
 /* Navigation Bar - Footer */
 
 .buttonnavbar-footer {
-    font-family: 'Silkscreen', cursive;
     font-weight: normal;
     font-size: 25px;
     text-align: center;
@@ -160,77 +142,53 @@ footer p {
     padding: 10px;
 }
 
-/* Home */
+/* Home/Index */
+
+.home-container {
+    margin: 250px 50px;
+}
 
 .home-content {
-    padding-top: 175px;
-    padding-bottom: 75px;
+    font: 100 19px 'silkscreen', cursive;
     text-align: center;
+    letter-spacing: 3.5px;
+    line-height: 1cm;
+    width: auto;
 }
 
 .homenavbar-footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 75px;
 }
 
 .homenavbar-footer a {
-    font-family: 'Silkscreen', cursive;
-    font-weight: normal;
-    font-size: 17px;
-    font-style: normal;
+    font: 17px 'silkscreen', cursive;
     text-align: center;
-    text-decoration: none;
     float: center;
-    padding: 10px;
-}
-
-.home-content {
-    letter-spacing: 3.5px;
-    line-height: 1cm;
-    padding-top: 200px;
-    padding-bottom: 50px;
-}
-
-.home-content h1 {
-    margin-bottom: 5px;
-    font-size: 30px;
-}
-
-.home-content h2 {
-    margin-top: 0px;
-    font-weight: lighter;
-    font-size: 25px;
+    padding: 0px 10px;
 }
 
 /* Team Profile */
 
 .teamprofile-titles {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px 0px 50px;
 }
 
 .teamprofile-titles h1 {
     text-align: center;
     font-size: 25px;
-    font-weight: lighter;
-    font-style: italic;
-
-    margin-bottom: 10px;
+    margin: 0px;
 }
 
 .teamprofile-titles h2 {
     text-align: center;
-    font-size: 40px;
-
-    margin-top: 10px;
+    font: bold 35px 'silkscreen', cursive;
+    margin: 5px 0px 0px;
 }
 
 .teamprofile-table td,
 th {
+    font: 200 26px 'silkscreen', cursive;
     padding: 45px;
-    font-size: 26px;
-    font-weight: 200;
-    font-style: normal;
 }
 
 .teamprofile-table {
@@ -238,12 +196,9 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .teamprofile-table img {
@@ -271,28 +226,13 @@ th {
 }
 
 .teamprofile-ijtitles {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.teamprofile-ijtitles {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-.teamprofile-ijtitles h1 {
     text-align: center;
-    font-size: 40px;
-
-    margin-bottom: 10px;
+    margin: 100px 0px 50px;
+    padding: 10px 0px 0px;
 }
 
 .teamprofile-ijtitles h2 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: lighter;
-
-    margin-top: 10px;
+    font-size: 20px;
 }
 
 .teamprofile-ijcontent {
@@ -301,11 +241,15 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0px 300px;
+    padding: 0px 0px 25px;
+}
 
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 0;
-    padding-bottom: 25px;
+.teamprofile-ijtable td {
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    padding: 2px 3px;
 }
 
 #teamprofile-ijtable1 {
@@ -314,13 +258,10 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     border-spacing: 1px 1px;
     border-collapse: collapse;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    margin: 0px 250px;
+    padding: 10px 0px 50px;
 }
 
 #teamprofile-ijtable2 {
@@ -329,23 +270,14 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     border-spacing: 1px 1px;
     border-collapse: collapse;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 0;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 0px 0px 50px;
 }
 
 #teamprofile-ijtable2 li {
     padding-right: 20px;
-}
-
-.teamprofile-ijtable td {
-    text-align: center;
-    border-style: solid;
-    border-color: white;
 }
 
 /* Team Profile - Sub Pages */
@@ -356,11 +288,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .teamprofile-content h1 {
@@ -369,8 +298,7 @@ th {
 }
 
 #teamprofile-spacing p {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 10px 0px 0px;
 }
 
 /* Tools */
@@ -381,27 +309,17 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0px 300px 0px;
+    padding: 50px 0px 75px;
+}
 
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.tools-content a {
+    color: whitesmoke;
+    font: 500 18px/0.75cm 'M PLUS 1 Code', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Industry Data */
-
-#idatacontent-section1 {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
 
 .idata-content {
     text-align: center;
@@ -409,11 +327,13 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0px 300px;
+    padding: 50px 0px 50px;
+}
 
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.idata-content h1 {
+    font-size: 20px;
+    padding
 }
 
 .idata-content li {
@@ -429,18 +349,14 @@ th {
     border-collapse: collapse;
     object-position: center;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 75px;
+    margin: -50px auto 0;
 }
 
 .idata-table2 {
     border-collapse: collapse;
     object-position: center;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 75px;
+    margin: 0px auto 75px;
 }
 
 .idata-table1 th {
@@ -456,6 +372,7 @@ th {
     text-align: center;
     border-style: solid;
     border-color: white;
+    padding: 15px 15px;
 }
 
 .idata-table2 th {
@@ -480,12 +397,9 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 250px;
+    padding: 50px 0px;
 }
 
 .itwork-table th {
@@ -518,11 +432,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .itwprofile-content h1 {
@@ -556,11 +467,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .itwinterview-content h1 {
@@ -589,8 +497,7 @@ th {
 /* Project Idea */
 
 .projectidea-titles {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px 0px 50px;
 }
 
 .projectidea-titles h1 {
@@ -604,16 +511,13 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 300px;
+    padding: 50px 0px;
 }
 
 .projectidea-content h2 {
-    font-style: italic;
-    font-weight: lighter;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* IT Tech */
@@ -645,22 +549,9 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.teamprofile-ijtitles {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.teamprofile-ijtitles h1 {
-    text-align: center;
-    font-size: 35px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 /* IT Tech - Sub Pages */
@@ -671,11 +562,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .ittech-content h1 {
@@ -706,11 +594,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .reflect-content h1 {
@@ -729,12 +614,9 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 250px;
+    padding: 50px 0px;
 }
 
 .reflect-table th {
@@ -778,11 +660,8 @@ th {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0px 200px;
+    padding: 50px 0px;
 }
 
 .irreflect-content h1 {
@@ -790,20 +669,24 @@ th {
     text-align: center;
 }
 
+.irreflect-content h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 /* Responsive Media Queries */
 
 /*
 .wrapper {
-    width: 100%;
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+width: 100%;
+max-width: 1100px;
+margin-left: auto;
+margin-right: auto;
 }
 
 @media screen and (max-width: 528px), (max-height: 320px) {
-    .wrapper {
-        width: 100%;
-        height: auto;
-    }
+.wrapper {
+    width: 100%;
+    height: auto;
 }
 */
