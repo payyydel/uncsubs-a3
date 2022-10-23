@@ -227,8 +227,13 @@ th {
 
 .teamprofile-ijtitles {
     text-align: center;
-    margin: 100px 0px 50px;
+    margin: 50px 0px 50px;
     padding: 10px 0px 0px;
+}
+
+.teamprofile-ijtitles h1 {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .teamprofile-ijtitles h2 {
