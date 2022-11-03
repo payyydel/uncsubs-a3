@@ -57,7 +57,7 @@ html {
 }
 
 header {
-    padding: 20px 50px 0px 0px;
+    margin: 20px 50px 0px 0px;
 }
 
 /* Background Image */
@@ -78,7 +78,7 @@ header {
 .page-header {
     text-align: left;
     text-transform: uppercase;
-    padding: 20px 500px 0px 50px;
+    margin: 20px 500px 0px 50px;
 }
 
 .page-header h1 {
@@ -89,7 +89,7 @@ header {
 
 .navbar-header {
     overflow: auto;
-    padding: 0px 0px 30px 50px;
+    margin: 0px 0px 30px 50px;
     letter-spacing: 5px;
 }
 
@@ -102,7 +102,7 @@ header {
     letter-spacing: 0.5px;
     color: whitesmoke;
     float: center;
-    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -111,7 +111,7 @@ header {
 footer {
     color: white;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 footer p {
@@ -130,7 +130,7 @@ footer p {
     font-weight: normal;
     font-size: 25px;
     text-align: center;
-    padding-top: 5px;
+    margin-top: 5px;
     width: 100%;
     letter-spacing: 0.5px;
     line-height: 0.75cm;
@@ -140,32 +140,39 @@ footer p {
     font-style: normal;
     text-decoration: none;
     float: center;
-    padding: 10px;
+    margin: 50px 0px 25px;
 }
 
 /* Home/Index */
 
 .navhome {
-    padding: 75px;
+    text-align: center;
+    margin: 20px 0px 50px;
 }
 
 .navhome a {
     font: 17px 'silkscreen', cursive;
     text-align: center;
     float: center;
-    padding: 0px 30px;
-}
-
-.homecontainer {
-    margin: 250px 50px;
+    margin: 0px 30px;
 }
 
 .hometitles {
-    font: 100 19px 'silkscreen', cursive;
+    margin: 235px 0px 200px;
+}
+
+.hometitles h1 {
+    font: 500 100px/3cm 'silkscreen', cursive;
     text-align: center;
-    letter-spacing: 3.5px;
-    line-height: 1cm;
-    width: auto;
+    letter-spacing: 6px;
+    margin: 50px 0px 10px;
+}
+
+.hometitles h2 {
+    font: 100 40px/3cm 'silkscreen', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 10px 0px 30px;
 }
 
 .homecontent {
@@ -173,7 +180,17 @@ footer p {
     text-align: center;
     letter-spacing: 3.5px;
     line-height: 1cm;
-    width: auto;
+    margin: 0px 150px 75px;
+}
+
+.homecontent h3 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin: 0px 0px 50px;
+}
+
+.homefooter {
+    margin: 0px 0px 30px;
 }
 
 /* Team Profile */
@@ -197,7 +214,7 @@ footer p {
 .teamprofile-table td,
 th {
     font: 200 26px 'silkscreen', cursive;
-    padding: 45px;
+    margin: 45px;
 }
 
 .teamprofile-table {
@@ -207,7 +224,7 @@ th {
     justify-content: space-evenly;
     text-align: center;
     margin: 0px 200px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .teamprofile-table img {
@@ -237,7 +254,7 @@ th {
 .teamprofile-ijtitles {
     text-align: center;
     margin: 50px 0px 50px;
-    padding: 10px 0px 0px;
+    margin: 10px 0px 0px;
 }
 
 .teamprofile-ijtitles h1 {
@@ -256,14 +273,14 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 300px;
-    padding: 0px 0px 25px;
+    margin: 0px 0px 25px;
 }
 
 .teamprofile-ijtable td {
     text-align: center;
     border-style: solid;
     border-color: white;
-    padding: 2px 3px;
+    margin: 2px 3px;
 }
 
 #teamprofile-ijtable1 {
@@ -275,7 +292,7 @@ th {
     border-spacing: 1px 1px;
     border-collapse: collapse;
     margin: 0px 250px;
-    padding: 10px 0px 50px;
+    margin: 10px 0px 50px;
 }
 
 #teamprofile-ijtable2 {
@@ -287,11 +304,11 @@ th {
     border-spacing: 1px 1px;
     border-collapse: collapse;
     margin: 0px 200px;
-    padding: 0px 0px 50px;
+    margin: 0px 0px 50px;
 }
 
 #teamprofile-ijtable2 li {
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 /* Team Profile - Sub Pages */
@@ -303,7 +320,7 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 200px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .teamprofile-content h1 {
@@ -324,7 +341,7 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 300px 0px;
-    padding: 50px 0px 75px;
+    margin: 50px 0px 75px;
 }
 
 .tools-content a {
@@ -333,180 +350,6 @@ th {
     letter-spacing: 1px;
 }
 
-/* Industry Data */
-
-.idata-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 300px;
-    padding: 50px 0px 50px;
-}
-
-.idata-content h1 {
-    font-size: 20px;
-    padding
-}
-
-.idata-content li {
-    text-align: left;
-    padding-right: 20px;
-}
-
-.idata-content img {
-    margin-left: 125px;
-}
-
-.idata-table1 {
-    border-collapse: collapse;
-    object-position: center;
-    width: 50%;
-    margin: -50px auto 0;
-}
-
-.idata-table2 {
-    border-collapse: collapse;
-    object-position: center;
-    width: 50%;
-    margin: 0px auto 75px;
-}
-
-.idata-table1 th {
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-}
-
-.idata-table1 td {
-    font-size: medium;
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-    padding: 15px 15px;
-}
-
-.idata-table2 th {
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-}
-
-.idata-table2 td {
-    font-size: small;
-    text-align: left;
-    border-style: solid;
-    border-color: white;
-}
-
-/* IT Work */
-
-.itwork-table {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 0px 250px;
-    padding: 50px 0px;
-}
-
-.itwork-table th {
-    padding: 45px;
-    font-size: 36px;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.itwork-table td {
-    padding: 45px;
-    font-size: 20px;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.itwork-rowmain th {
-    padding-bottom: 0px;
-}
-
-.itwork-rowname td {
-    padding-top: 0px;
-}
-
-/* IT Work Sub-Pages - PROFILE */
-
-.itwprofile-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 200px;
-    padding: 50px 0px;
-}
-
-.itwprofile-content h1 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.itwprofile-content h2 {
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 30px;
-}
-
-.itwprofile-content h3 {
-    font-size: 13px;
-}
-
-#itwprofile-audio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* IT Work Sub-Pages - INTERVIEW */
-
-.itwinterview-content {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 200px;
-    padding: 50px 0px;
-}
-
-.itwinterview-content h1 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.itwinterview-content h2 {
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 30px;
-}
-
-.itwinterview-content h3 {
-    font-size: 13px;
-}
-
-#itwinterview-audio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Project Idea */
 
@@ -526,7 +369,7 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 300px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .projectidea-content h2 {
@@ -534,71 +377,6 @@ th {
     font-weight: bold;
 }
 
-/* IT Tech */
-
-.ittech-table th {
-    padding: 45px;
-    font-size: 26px;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.ittech-table td {
-    padding: 45px;
-    font-size: 15px;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.ittech-rowmain th {
-    padding-bottom: 0px;
-}
-
-.ittech-rowname td {
-    padding-top: 0px;
-}
-
-.ittech-table {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 0px 200px;
-    padding: 50px 0px;
-}
-
-/* IT Tech - Sub Pages */
-
-.ittech-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 200px;
-    padding: 50px 0px;
-}
-
-.ittech-content h1 {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.ittech-content h2 {
-    font-size: 20px;
-    font-style: italic;
-    margin-top: 0px;
-}
-
-.ittech-content h3 {
-    font-size: 17px;
-}
-
-.ittech-content h4 {
-    font-size: 15px;
-    font-style: normal;
-}
 
 /* Group Reflection */
 
@@ -609,7 +387,7 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 200px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .reflect-content h1 {
@@ -630,29 +408,29 @@ th {
     justify-content: space-evenly;
     text-align: center;
     margin: 0px 250px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .reflect-table th {
-    padding: 45px;
+    margin: 45px;
     font-size: 26px;
     font-weight: 200;
     font-style: normal;
 }
 
 .reflect-table td {
-    padding: 45px;
+    margin: 45px;
     font-size: 15px;
     font-weight: 200;
     font-style: italic;
 }
 
 .reflect-rowmain th {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .reflect-rowname td {
-    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .reflect-ijtitles {
@@ -675,7 +453,7 @@ th {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0px 200px;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .irreflect-content h1 {
