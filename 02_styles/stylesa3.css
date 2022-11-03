@@ -8,14 +8,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: floralwhite;
+    color: whitesmoke;
     font: 25px 'silkscreen', cursive;
     letter-spacing: 1px;
 }
 
 .wrapper li,
 p {
-    color: white;
+    color: whitesmoke;
     font: 500 18px/0.75cm 'M PLUS 1 Code', sans-serif;
     letter-spacing: 1px;
 }
@@ -27,14 +27,14 @@ p {
 
 .wrapper tr,
 td {
-    color: white;
+    color: whitesmoke;
     font: medium/0.75cm 'silkscreen', cursive;
     letter-spacing: 0.5px;
 }
 
 .wrapper a:link,
 a:visited {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -66,12 +66,12 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: url(../Images/Backgrounds/altbg.jpg) no-repeat center center fixed;
+    /*background: url(???) no-repeat center center fixed;*/
     background-size: cover;
     background-color: black;
 }
 
-/* IMAGE SOURCE: Gradienta - https://unsplash.com/photos/pHh_qLDusw4 */
+/* IMAGE SOURCE: ??? */
 
 /* Header */
 
@@ -147,31 +147,31 @@ footer p {
 
 .navhome {
     text-align: center;
-    margin: 20px 0px 50px;
+    margin: 50px 0px 25px;
 }
 
 .navhome a {
-    font: 17px 'silkscreen', cursive;
+    font: bold 17px 'silkscreen', cursive;
     text-align: center;
     float: center;
-    margin: 0px 30px;
+    margin: 0px 20px;
 }
 
 .hometitles {
-    margin: 235px 0px 200px;
+    margin: 180px 0px 150px;
 }
 
 .hometitles h1 {
     font: 500 100px/3cm 'silkscreen', cursive;
     text-align: center;
-    letter-spacing: 6px;
+    letter-spacing: 10px;
     margin: 50px 0px 10px;
 }
 
 .hometitles h2 {
-    font: 100 40px/3cm 'silkscreen', cursive;
+    font: 100 italic 40px/3cm 'silkscreen', cursive;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: -5px;
     margin: 10px 0px 30px;
 }
 
@@ -180,17 +180,18 @@ footer p {
     text-align: center;
     letter-spacing: 3.5px;
     line-height: 1cm;
-    margin: 0px 150px 75px;
+    margin: 30px 150px;
 }
 
 .homecontent h3 {
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin: 0px 0px 50px;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin: 0px 0px 75px;
 }
 
 .homefooter {
-    margin: 0px 0px 30px;
+    font-size: 10px;
+    margin: 100px 0px 30px;
 }
 
 /* Team Profile */
