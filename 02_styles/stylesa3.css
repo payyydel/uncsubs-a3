@@ -68,6 +68,7 @@ header {
     -o-background-size: cover;
     background: url(../Images/Backgrounds/altbg.jpg) no-repeat center center fixed;
     background-size: cover;
+    background-color: black;
 }
 
 /* IMAGE SOURCE: Gradienta - https://unsplash.com/photos/pHh_qLDusw4 */
@@ -144,11 +145,22 @@ footer p {
 
 /* Home/Index */
 
-.home-container {
+.navhome {
+    padding: 75px;
+}
+
+.navhome a {
+    font: 17px 'silkscreen', cursive;
+    text-align: center;
+    float: center;
+    padding: 0px 30px;
+}
+
+.homecontainer {
     margin: 250px 50px;
 }
 
-.home-content {
+.hometitles {
     font: 100 19px 'silkscreen', cursive;
     text-align: center;
     letter-spacing: 3.5px;
@@ -156,15 +168,12 @@ footer p {
     width: auto;
 }
 
-.homenavbar-footer {
-    padding: 75px;
-}
-
-.homenavbar-footer a {
-    font: 17px 'silkscreen', cursive;
+.homecontent {
+    font: 100 19px 'silkscreen', cursive;
     text-align: center;
-    float: center;
-    padding: 0px 10px;
+    letter-spacing: 3.5px;
+    line-height: 1cm;
+    width: auto;
 }
 
 /* Team Profile */
