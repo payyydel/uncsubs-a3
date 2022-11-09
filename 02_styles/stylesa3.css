@@ -2,7 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
 
-.wrapper h1,
+h1 {
+    color: whitesmoke;
+    font: bold 17px/0.75cm 'silkscreen', cursive;
+    letter-spacing: 1px;
+}
+
 h2,
 h3,
 h4,
@@ -13,42 +18,48 @@ h6 {
     letter-spacing: 1px;
 }
 
-.wrapper li,
+li,
 p {
     color: whitesmoke;
     font: 500 18px/0.75cm 'M PLUS 1 Code', sans-serif;
     letter-spacing: 1px;
 }
 
-.wrapper th {
+th {
     color: whitesmoke;
     font: bold 20px 'silkscreen', cursive;
 }
 
-.wrapper tr,
+tr,
 td {
     color: whitesmoke;
     font: medium/0.75cm 'silkscreen', cursive;
     letter-spacing: 0.5px;
 }
 
-.wrapper a:link,
+a:link,
 a:visited {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.wrapper a:hover {
-    color: coral;
+a:hover {
+    color: #FF5F1F;
 }
 
-.wrapper a:active {
-    background-color: steelblue;
+a:active {
+    color: #FFA986;
+}
+
+.backbutton h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .break {
-    background-color: aquamarine;
-    opacity: 70%;
+    background-color: #FF5F1F;
+    opacity: 85%;
     margin: 0px 50px 0px 50px;
 }
 
@@ -56,9 +67,12 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    margin: 20px 50px 0px 0px;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 /* Background Image */
 
@@ -75,43 +89,23 @@ header {
 
 /* Header */
 
-.page-header {
+.pageheader {
     text-align: left;
     text-transform: uppercase;
     margin: 20px 500px 0px 50px;
 }
 
-.page-header h1 {
-    font-size: 50px;
+.pageheader h1 {
+    font-size: 55px;
+    font-weight: normal;
+    margin: 50px 0px 40px;
 }
-
-/* Navigation Bar - Header */
-
-.navbar-header {
-    overflow: auto;
-    margin: 0px 0px 30px 50px;
-    letter-spacing: 5px;
-}
-
-.navbar-header p {
-    font: 17px 'silkscreen', cursive;
-}
-
-.navbar-header a {
-    line-height: 0.75cm;
-    letter-spacing: 0.5px;
-    color: whitesmoke;
-    float: center;
-    margin: 10px;
-}
-
 
 /* Footer */
 
 footer {
-    color: white;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 0px;
 }
 
 footer p {
@@ -120,27 +114,40 @@ footer p {
     letter-spacing: 0.5px;
 }
 
-#footer-info {
-    margin-bottom: 15px;
+/* Navigation Bar - Header */
+
+.navheader {
+    overflow: auto;
+    margin: 0px 0px 30px 30px;
+    letter-spacing: 5px;
 }
 
-/* Navigation Bar - Footer */
-
-.buttonnavbar-footer {
-    font-weight: normal;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 5px;
-    width: 100%;
+.navheader p {
+    color: whitesmoke;
+    font: bold 17px/0.75cm 'silkscreen', cursive;
     letter-spacing: 0.5px;
-    line-height: 0.75cm;
+    margin: 0px;
 }
 
-.buttonnavbar-footer a {
-    font-style: normal;
-    text-decoration: none;
-    float: center;
-    margin: 50px 0px 25px;
+.navheader a {
+    float: left;
+    margin: 0px 25px;
+}
+
+/* Template */
+
+.tempcontent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 250px;
+}
+
+.tempcontent h1 {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* Home/Index */
@@ -189,48 +196,112 @@ footer p {
     margin: 0px 0px 75px;
 }
 
-.homefooter {
-    font-size: 10px;
-    margin: 100px 0px 30px;
-}
+/* Description */
 
-/* Team Profile */
-
-.teamprofile-titles {
-    margin: 100px 0px 50px;
-}
-
-.teamprofile-titles h1 {
+.desccontent {
     text-align: center;
-    font-size: 25px;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 200px;
 }
 
-.teamprofile-titles h2 {
-    text-align: center;
-    font: bold 35px 'silkscreen', cursive;
-    margin: 5px 0px 0px;
-}
-
-.teamprofile-table td,
-th {
-    font: 200 26px 'silkscreen', cursive;
-    margin: 45px;
-}
-
-.teamprofile-table {
+.desctable {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    margin: 0px 200px;
+    margin: 50px 250px;
+}
+
+.desctable th {
+    margin: 45px;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.desctable td {
+    margin: 45px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.descmainrow td {
+    padding-top: 10px;
+}
+
+.descsubrow th {
+    padding: 0px 0px 15px;
+}
+
+/* Description Sub Pages */
+
+
+
+/* Skills & Jobs */
+
+.snjcontent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 250px;
+}
+
+.snjcontent h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Team Profile */
+
+.tptitles {
     margin: 50px 0px;
 }
 
-.teamprofile-table img {
+.tptitles h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.tptitles h2 {
+    text-align: center;
+    font: bold 35px 'silkscreen', cursive;
+    margin: 5px 0px 0px;
+}
+
+.tptable {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.tptable td,
+th {
+    font: 500 26px 'silkscreen', cursive;
+    padding: 20px 0px;
+}
+
+.tptable img {
     width: 100px;
     object-fit: cover;
+    transition: transform .2s;
+}
+
+.tptable img:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 #hs-rec {
@@ -252,217 +323,117 @@ th {
     border-radius: 50%;
 }
 
-.teamprofile-ijtitles {
+.tpcontent {
     text-align: center;
-    margin: 50px 0px 50px;
-    margin: 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 250px;
 }
 
-.teamprofile-ijtitles h1 {
-    font-size: 30px;
+.tpcontent h1 {
+    font-size: 17px;
     font-weight: bold;
-}
-
-.teamprofile-ijtitles h2 {
-    font-size: 20px;
-}
-
-.teamprofile-ijcontent {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 300px;
-    margin: 0px 0px 25px;
-}
-
-.teamprofile-ijtable td {
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-    margin: 2px 3px;
-}
-
-#teamprofile-ijtable1 {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-spacing: 1px 1px;
-    border-collapse: collapse;
-    margin: 0px 250px;
-    margin: 10px 0px 50px;
-}
-
-#teamprofile-ijtable2 {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-spacing: 1px 1px;
-    border-collapse: collapse;
-    margin: 0px 200px;
-    margin: 0px 0px 50px;
-}
-
-#teamprofile-ijtable2 li {
-    margin-right: 20px;
 }
 
 /* Team Profile - Sub Pages */
 
-.teamprofile-content {
+.tpspcontent {
     text-align: left;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0px 200px;
-    margin: 50px 0px;
+    margin: 0px 50px 50px;
 }
 
-.teamprofile-content h1 {
+.tpspcontent h1 {
     font-size: 20px;
     font-weight: bold;
 }
 
-#teamprofile-spacing p {
+#tpspacing p {
     margin: 10px 0px 0px;
 }
 
 /* Tools */
 
-.tools-content {
+.toolscontent {
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0px 300px 0px;
-    margin: 50px 0px 75px;
+    margin: 40px 300px;
 }
 
-.tools-content a {
+.toolscontent a {
     color: whitesmoke;
     font: 500 18px/0.75cm 'M PLUS 1 Code', sans-serif;
     letter-spacing: 1px;
 }
 
 
-/* Project Idea */
-
-.projectidea-titles {
-    margin: 100px 0px 50px;
-}
-
-.projectidea-titles h1 {
-    text-align: center;
-    font-size: 35px;
-}
-
-.projectidea-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px 300px;
-    margin: 50px 0px;
-}
-
-.projectidea-content h2 {
-    font-size: 17px;
-    font-weight: bold;
-}
-
-
 /* Group Reflection */
 
-.reflect-content {
+.grcontent {
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0px 200px;
-    margin: 50px 0px;
+    margin: 50px 200px;
 }
 
-.reflect-content h1 {
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.reflect-content h2 {
-    font-size: 25px;
-    font-style: italic;
-    margin-top: 30px;
-}
-
-.reflect-table {
+.grtable {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    margin: 0px 250px;
-    margin: 50px 0px;
+    margin: 50px 250px;
 }
 
-.reflect-table th {
+.grtable th {
     margin: 45px;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 200;
     font-style: normal;
 }
 
-.reflect-table td {
+.grtable td {
     margin: 45px;
     font-size: 15px;
     font-weight: 200;
-    font-style: italic;
 }
 
-.reflect-rowmain th {
-    margin-bottom: 0px;
+.grmainrow th {
+    padding-bottom: 0px;
 }
 
-.reflect-rowname td {
-    margin-top: 0px;
-}
-
-.reflect-ijtitles {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.reflect-ijtitles h1 {
-    text-align: center;
-    font-size: 35px;
+.grsubrow td {
+    padding-bottom: 20px;
 }
 
 
 /* Individual Reflections Sub Pages (Group Reflections) */
 
-.irreflect-content {
+.ircontent {
     text-align: left;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0px 200px;
-    margin: 50px 0px;
+    margin: 50px 200px;
 }
 
-.irreflect-content h1 {
+.ircontent h1 {
     font-size: 20px;
     text-align: center;
 }
 
-.irreflect-content h2 {
+.ircontent h2 {
     font-size: 15px;
     font-weight: bold;
 }
