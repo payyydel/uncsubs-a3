@@ -11,10 +11,15 @@ h1 {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     color: whitesmoke;
     font: 25px 'silkscreen', cursive;
+    letter-spacing: 1px;
+}
+
+h6 {
+    color: whitesmoke;
+    font: 40px/1.5cm 'silkscreen', cursive;
     letter-spacing: 1px;
 }
 
@@ -97,7 +102,7 @@ body {
 
 .pageheader h1 {
     font-size: 55px;
-    font-weight: normal;
+    font-weight: bold;
     margin: 50px 0px 40px;
 }
 
@@ -124,7 +129,7 @@ footer p {
 
 .navheader p {
     color: whitesmoke;
-    font: bold 17px/0.75cm 'silkscreen', cursive;
+    font: 17px/0.75cm 'silkscreen', cursive;
     letter-spacing: 0.5px;
     margin: 0px;
 }
@@ -207,39 +212,34 @@ footer p {
     margin: 50px 200px;
 }
 
-.desctable {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.desccontent h6 {
+    margin: 25px 0px;
+}
+
+
+.desccontainer {
     text-align: center;
-    margin: 50px 250px;
-}
-
-.desctable th {
-    margin: 45px;
-    font-size: 30px;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.desctable td {
-    margin: 45px;
-    font-size: 15px;
-    font-weight: 200;
-}
-
-.descmainrow td {
-    padding-top: 10px;
-}
-
-.descsubrow th {
-    padding: 0px 0px 15px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px 250px;
 }
 
 /* Description Sub Pages */
 
+.descsubs-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 200px;
+}
 
+#desclists {
+    text-align: left;
+}
 
 /* Skills & Jobs */
 
