@@ -78,6 +78,13 @@ body {
     box-sizing: border-box;
 }
 
+.excel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 /* Background Image */
 
